@@ -5,7 +5,7 @@
 
 
 
-#1 Creating simple function which will accept Practicing things: name and price of the product (dictionary)
+#1 Creating simple function which will accept: name and price of the product (dictionary)
 def enterProducts():
     buyingData = {}
     enterDetails = True
