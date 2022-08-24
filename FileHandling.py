@@ -1,6 +1,7 @@
+import os
 
+filepath = os.path.abspath('Documents/emailvagas.txt')
 
-file = open('emailvagas.txt', 'a')
-file.write('Felix Carvalho, Jr. Software Engineer')
-file.close()
+file = open(filepath, 'r')
+print(file.read())
 
