@@ -17,5 +17,5 @@ while t != ultimoT:
                 t += r
 print('\nPrograma encerrado.')
 
-
+#todo
 #ao finalizar testado e funcionando. algo quebrou e corrija depois!
