@@ -1,4 +1,1 @@
-i = 0
-for x in range(100):
-    print(i)
-    i += 1
+print(50/5)
