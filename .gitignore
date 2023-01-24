@@ -1,1 +1,5 @@
 .idea/
+/*.cmake
+/*.DS_Store
+/.user
+/build
