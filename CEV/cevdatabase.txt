@@ -1,0 +1,11 @@
+Felix,32
+Maria,30
+Maria victoria,25
+Beatriz,13
+Jose,56
+Wilma,51
+Micharley,49
+Fatima,70
+Josefa,67
+Joao,69
+Cachorro,2
