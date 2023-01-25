@@ -1,5 +1,8 @@
 import yfinance as yf
 
-msft = yf.Ticker("MSFT")
-stock = msft.basic_info
-print(stock)
+# Get stock info for Apple Inc.
+stock = yf.Ticker("AAPL")
+stock_info = stock.info
+
+# Print the current stock price
+print(stock_info["regularMarketPrice"])
