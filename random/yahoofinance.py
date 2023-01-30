@@ -1,14 +1,19 @@
 import yfinance as yf
 
 
-def currentPrice(symbol):
-    ticker = yf.Ticker(symbol)
-    todayData = ticker.history(period='1d')
-    return round(todayData['Close'][0], 2)
+def lookup(symbol):
+    """Look up quote for symbol."""
+    symbol.upper().strip()
+
+    if symbol[-1].isdigit():
+        symbol = symbol + '.SA'
+    try:
+        ticker = yf.Ticker(symbol)
+        todayData = ticker.history(period='1d')
+        return round(todayData['Close'][0], 2)
+    except Exception as e:
+        return f"Error: Could not retrieve stock data for symbol '{symbol}' - {str(e)}"
 
 
-stock = input('Enter stock: ').upper().strip()
-if stock[-1].isdigit():
-    stock = stock + '.SA'
-
-print(f'A share of {stock} costs ${currentPrice(stock)}')
+stck = input('enter stock: ')
+print(lookup(stck))
