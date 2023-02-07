@@ -6,7 +6,7 @@ def load_nasdaq_symbols():
     """Load list of nasdaq companies"""
     symbols = {}
     try:
-        with open('webstudies/trainingTrader/nasdaq_companies.csv', 'r') as f:
+        with open('webstudies/StockChampion/nasdaq_companies.csv', 'r') as f:
             reader = csv.reader(f)
             next(reader)  # skip the header row
             for row in reader:
@@ -47,4 +47,4 @@ def lookup(symbol):
     }
 
 
-print(lookup('tsla'))
+print(lookup('aapl'))
