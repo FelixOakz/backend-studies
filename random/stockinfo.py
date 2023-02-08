@@ -47,7 +47,7 @@ def lookup(symbol):
     }
 
 
-symbols = 'aapl', 'amzn', 'msft', 'nflx', 'tsla'
+symbols = [load_nasdaq_symbols()]
 
-for s in symbols:
-    print(lookup(s))
+for i in range(0, len(symbols)):
+    print(f'{symbols[i]}\n')
