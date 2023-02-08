@@ -45,3 +45,9 @@ def lookup(symbol):
         "price": closing_price,
         "symbol": company_symbol
     }
+
+
+symbols = 'aapl', 'amzn', 'msft', 'nflx', 'tsla'
+
+for s in symbols:
+    print(lookup(s))
