@@ -45,6 +45,3 @@ def lookup(symbol):
         "price": closing_price,
         "symbol": company_symbol
     }
-
-
-print(lookup('aapl'))
