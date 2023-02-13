@@ -1,4 +1,4 @@
-for i in range(1, 101):
+for i in range(101):
     # condicoes diferenciadas de acordo com resultado esperado
     if i % 3 == 0 and i % 5 == 0:
         print('FizzBuzz')
