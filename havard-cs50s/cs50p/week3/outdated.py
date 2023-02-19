@@ -4,8 +4,6 @@ value in the MONTHS variable
 2 - output same date in YYYY-MM-DD format. if user do not input in either format, prompt again.
 3 - no month das more than 31d
 
-
-
 """
 
 
