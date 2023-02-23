@@ -26,4 +26,3 @@ digits = list(range(0, 9))
 for passcode in itertools.product(digits, repeat=4):
     if passcode == password:
         print("The password is: " + ''.join(str(i) for i in password))
-
