@@ -19,10 +19,12 @@
 </head>
 
 <body>
+    <?php
+        $name = "Dark Matter";
+        $read = true;
+    ?>
     <h1>
-        <?php
-        echo 'You have read "Dark Matter."'
-        ?>
+        You have read "<?php echo $name; ?>."
     </h1>
 </body>
 
