@@ -22,9 +22,16 @@
     <?php
         $name = "Dark Matter";
         $read = true;
+
+        if ($read) {
+            $message = "You have read $name";
+        }
+        else {
+            $message = "You have NOT read $name";
+        }
     ?>
     <h1>
-        You have read "<?php echo $name; ?>."
+        <?= $message; ?>
     </h1>
 </body>
 
