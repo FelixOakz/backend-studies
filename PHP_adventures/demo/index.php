@@ -20,19 +20,21 @@
 
 <body>
     <?php
-        $name = "Dark Matter";
-        $read = true;
 
-        if ($read) {
-            $message = "You have read $name";
-        }
-        else {
-            $message = "You have NOT read $name";
-        }
+    $books = [
+        "Do Androids dream of electric sheet",
+        "The Langoliers",
+        "Hail Mary"
+    ];
     ?>
-    <h1>
-        <?= $message; ?>
-    </h1>
+
+    <ul>
+        <?php foreach ($books as $book) : ?>
+            <li><?= $book ?></li>
+        <?php endforeach; ?>
+    </ul>
+    
+
 </body>
 
 </html>
