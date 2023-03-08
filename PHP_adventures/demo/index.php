@@ -21,12 +21,10 @@
 <body>
     <?php
 
-    $books = [
-        "Do Androids dream of electric sheet",
-        "The Langoliers",
-        "Hail Mary"
-    ];
-    
+    printNum(30+1);
+    function printNum($n){
+        echo $n;
+    }
     ?>
 
     <ul>
