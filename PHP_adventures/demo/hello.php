@@ -1,4 +1,9 @@
 <?php
-for ($i = 1; $i <= 10; $i++) {
-    echo "the numer is $i";
+$x = 13;
+$y = "13";
+if ($x == $y) {
+    echo "is equal";
+}
+else {
+    echo "not equal";
 }
