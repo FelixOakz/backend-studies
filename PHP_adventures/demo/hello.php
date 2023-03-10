@@ -7,5 +7,3 @@ if ($x == $y) {
 else {
     echo "not equal";
 }
-
-
