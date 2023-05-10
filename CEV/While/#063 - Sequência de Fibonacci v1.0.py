@@ -1,4 +1,4 @@
-termos = int(input('Quantos termos voce quer mostrar?: '))
+termos = int(input('Quantos termos fibbonaci?: '))
 n = 0
 nn = 1
 nnn = n + nn
