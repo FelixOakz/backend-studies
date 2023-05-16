@@ -1,0 +1,22 @@
+{
+  "name": "jsreactstudies",
+  "version": "1.0.0",
+  "description": "# LESSSSSGOOO",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixOakz/jsReactStudies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixOakz/jsReactStudies/issues"
+  },
+  "homepage": "https://github.com/FelixOakz/jsReactStudies#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
